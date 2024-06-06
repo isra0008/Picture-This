@@ -16,34 +16,43 @@
       <h4>My Really Cool Blog Post</h4>
     </div>
     <picture>
-      <source srcset="img/art/landscape/lego_landscape_960.png,
-                      img/art/landscape/lego_landscape_1440.png 1.5x,
-                      img/art/landscape/lego_landscape_1920.png 2x"
-              media="(min-width: 640px)"/>
+      <source srcset="images/museum_320x180.png,
+                      images/museum_640x360.png 2x,
+                      images/museum_960x540.png 3x"
+              media="(max-width: 320px)"/>
   
-      <source srcset="img/art/square/lego_square_640.png,
-                          img/art/square/lego_square_960.png 1.5x,
-                          img/art/square/lego_square_1440.png 2x"
-              media="(min-width: 480px)"/>
+      <source srcset="images/museum_480x270.png,
+                    images/museum_960x540.png 2x,
+                    images/museum_1440x810.png 3x"
+              media="(max-width: 480px)"/>
+
+     <source srcset="images/museum_960x540.png,
+                    images/museum_1920x1080.png 2x,
+                    images/museum_2880x1621.png 3x"
+              media="(max-width: 959px)"/>
   
-      <source srcset="img/art/square/lego_square_480.png,
-                          img/art/square/lego_square_720.png 1.5x,
-                          img/art/square/lego_square_960.png 2x,
-                          img/art/square/lego_square_1440.png 3x"
-              media="min-width: 320px)" />
-  
-      <source srcset="img/art/portrait/lego_portrait_320.png,
-                          img/art/portrait/lego_portrait_480.png 1.5x,
-                          img/art/portrait/lego_portrait_640.png 2x,
-                          img/art/portrait/lego_portrait_960.png 3x"
-              media="(max-width: 319px)" />
+      <source srcset="images/square_960x960.png,
+                      images/square_480x480.png 1x,
+                      images/square_960x960.png 2x,
+                      images/square_1440x1440.png 3x"
+              media="(min-width: 960px)" />
+
+      <source srcset="images/square_1280x1280.png,
+              images/square_640x640.png 1x,
+              images/square_1280x1280.png 2x,
+              images/square_1920x1920.png 3x"
+      media="(min-width: 1280px)" />  
+      
+      <source srcset="images/square_1600x1600.png,
+              images/square_800x800.png 1x,
+              images/square_1600x1600.png 2x,
+              images/square_2400x2400.png 3x"
+      media="(min-width: 1600px)" />
   
       <img class="orig-img"
-           src="img/art/square/lego_square_960.png"
-           alt="Life size person built from grey Lego bricks standing
-                next to partially completed lego people">
+            src="images/museum.jpg"
+            alt="Image of a museum.">
   </picture>
-    <img src="images/museum.jpg" alt="placeholder">
 
   </header>
 </body>
