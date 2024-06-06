@@ -15,6 +15,34 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
+    <picture>
+      <source srcset="img/art/landscape/lego_landscape_960.png,
+                      img/art/landscape/lego_landscape_1440.png 1.5x,
+                      img/art/landscape/lego_landscape_1920.png 2x"
+              media="(min-width: 640px)"/>
+  
+      <source srcset="img/art/square/lego_square_640.png,
+                          img/art/square/lego_square_960.png 1.5x,
+                          img/art/square/lego_square_1440.png 2x"
+              media="(min-width: 480px)"/>
+  
+      <source srcset="img/art/square/lego_square_480.png,
+                          img/art/square/lego_square_720.png 1.5x,
+                          img/art/square/lego_square_960.png 2x,
+                          img/art/square/lego_square_1440.png 3x"
+              media="min-width: 320px)" />
+  
+      <source srcset="img/art/portrait/lego_portrait_320.png,
+                          img/art/portrait/lego_portrait_480.png 1.5x,
+                          img/art/portrait/lego_portrait_640.png 2x,
+                          img/art/portrait/lego_portrait_960.png 3x"
+              media="(max-width: 319px)" />
+  
+      <img class="orig-img"
+           src="img/art/square/lego_square_960.png"
+           alt="Life size person built from grey Lego bricks standing
+                next to partially completed lego people">
+  </picture>
     <img src="images/museum.jpg" alt="placeholder">
 
   </header>
